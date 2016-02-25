@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h> 
-#include "mdump.h"
+#include <signal.h>
 
 int main(int argc, char **argv) {
     
     char s[] = "Hello";
-    //mdump(stdout, s, 1024);
+    mdump(stdout, s, 1024);
     
     FILE * pFile;
     pFile = fopen ("dump.dat", "w");
