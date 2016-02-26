@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <signal.h>
 #include <setjmp.h>
 #include "mdump.h"
