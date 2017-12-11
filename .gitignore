@@ -2,3 +2,6 @@
 *.obj
 *.exe
 *.dat
+*.db
+*.ilk
+*.pdb
